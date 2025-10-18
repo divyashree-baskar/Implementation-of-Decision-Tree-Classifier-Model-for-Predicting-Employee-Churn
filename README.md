@@ -28,13 +28,11 @@ Program to implement the Decision Tree Classifier Model for Predicting Employee 
 Developed by: DIVYASHREE B
 RegisterNumber:  212224040081
 */
-Program to implement the Decision Tree Classifier Model for Predicting Employee Churn.
-Developed by: Sukirthana.M
-RegisterNumber: 212224220112
+
 
 import pandas as pd
 data=pd.read_csv("Employee.csv")
-print("Name: Swetha S\nReg.no: 212224040344")
+print("Name: Divyashree B\nReg.no: 212224040081")
 data.head()
 
 data.tail()
@@ -71,8 +69,8 @@ dt.predict([[0.5, 0.8, 9, 260, 6, 0, 1, 2]])
 ```
 
 ## Output:
+<img width="1387" height="293" alt="image" src="https://github.com/user-attachments/assets/2a5cc493-d831-4795-8e1f-706ae7dd57b5" />
 
-<img width="1338" height="313" alt="image" src="https://github.com/user-attachments/assets/cf7ac790-5ff0-45c6-940d-49d019aec368" />
 
 <img width="1346" height="309" alt="image" src="https://github.com/user-attachments/assets/83fe90dd-888b-45b7-8d15-48e21d6a5250" />
 
